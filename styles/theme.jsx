@@ -5,6 +5,10 @@ const theme = extendTheme({
     secondary: "",
     primary: "",
   },
+  fonts: {
+    body: "Inter, sans-serif",
+    heading: "Inter, sans-serif",
+  },
   styles: {
     global: () => ({
       body: {
