@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
 .gradient_header {
   background: linear-gradient(90.16deg, #257cff 30%, #bed8ff 80%, #c8deff 100%);
   -webkit-background-clip: text;
@@ -22,6 +28,8 @@
 .cleaningVideo {
   opacity: 0.2;
   width: 100%;
+  height: 100vh;
   position: relative;
   filter: brightness(0.5);
+  object-fit: fill;
 }

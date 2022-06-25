@@ -62,7 +62,7 @@ function Hero() {
           </Text>
         </Box>
       </Box>
-      <Box mb="0px" position="absolute" zIndex="-1" width="100%">
+      <Box as="div" p="0" position="absolute" zIndex="-1" width="100%">
         <video
           src={require("../AuraGif.mp4")}
           loop
