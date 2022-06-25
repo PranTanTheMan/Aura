@@ -2,8 +2,13 @@ import { extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
   colors: {
-    secondary: "#d6840c",
-    primary: "#00153a",
+    secondary: "#64A2FF",
+    primary: "#BED8FF",
+    bgColor: "#000",
+  },
+  fonts: {
+    body: "Inter, system-ui, sans-serif",
+    heading: "Inter, system-ui, sans-serif",
   },
   styles: {
     global: () => ({
@@ -11,7 +16,7 @@ const theme = extendTheme({
         fontFamily:
           "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
         color: "white",
-        backgroundColor: "primary",
+        backgroundColor: "bgColor",
         padding: 0,
         margin: 0,
       },
