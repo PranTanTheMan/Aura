@@ -62,7 +62,7 @@ function Hero() {
           </Text>
         </Box>
       </Box>
-      <Box mb="0px">
+      <Box mb="0px" position="absolute" zIndex="-1">
         <video
           className="cleaningVideo"
           src={require("../AuraGif.mp4")}
