@@ -4,7 +4,7 @@ const theme = extendTheme({
   colors: {
     secondary: "#64A2FF",
     primary: "#BED8FF",
-    bgColor: "#000",
+    bgColor: "#070e1d",
   },
   fonts: {
     body: "Inter, system-ui, sans-serif",
