@@ -60,7 +60,7 @@ function Hero() {
               transform: "scale(1.08)",
             }}
             onClick={() => {
-              window.open("../application.jsx", "_self");
+              window.open("../Main.js", "_self");
             }}
             zIndex="overlay"
           >

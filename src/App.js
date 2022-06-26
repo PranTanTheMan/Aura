@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Hero />} />
-        <Route path="./components/application.jsx" element={<Application />} />
+        <Route path="/Main.js" element={<Application />} />
       </Routes>
     </BrowserRouter>
   );
